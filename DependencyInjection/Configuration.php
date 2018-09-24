@@ -395,7 +395,7 @@ class Configuration implements ConfigurationInterface
     /**
      * Add the definitions for shared plugin configurations.
      *
-     * @param ArrayNodeDefinition $pluginNode The node to add to.
+     * @param ArrayNodeDefinition $pluginNode the node to add to
      * @param bool                $disableAll Some shared plugins are enabled by default. On the client, all are disabled by default.
      */
     private function addSharedPluginNodes(ArrayNodeDefinition $pluginNode, $disableAll = false)
@@ -493,7 +493,7 @@ class Configuration implements ConfigurationInterface
     /**
      * Create configuration for authentication plugin.
      *
-     * @return NodeDefinition Definition for the authentication node in the plugins list.
+     * @return NodeDefinition definition for the authentication node in the plugins list
      */
     private function createAuthenticationPluginNode()
     {
@@ -584,7 +584,7 @@ class Configuration implements ConfigurationInterface
     /**
      * Create configuration for cache plugin.
      *
-     * @return NodeDefinition Definition for the cache node in the plugins list.
+     * @return NodeDefinition definition for the cache node in the plugins list
      */
     private function createCachePluginNode()
     {
